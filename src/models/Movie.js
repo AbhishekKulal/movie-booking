@@ -4,7 +4,7 @@ const schema = new mongoose.Schema({
   name: String,
   language: String,
   cast: Object, //{actors:[], directors:[],producers:[]}
-  gener: Array,
+  genre: Array,
   certificate: String,
   duration: Date,
 });
